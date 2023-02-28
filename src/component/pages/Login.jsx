@@ -20,9 +20,8 @@ const Login = () => {
          <input type="checkbox" />
           <label htmlFor="" className='ms-2'>Accept condition</label>
          </div>
-          <div className='wrapper'>
-          <select className='form-select mb-4 text-white shadow-none w- m-auto' style={{backgroundColor:"rgb(59,59,59)"}} name="" id="">
-            <option value="Albanian"><img className='w-' src={alb} alt=""/> Albanian</option>
+          <select className='form-select mb-4 text-white shadow-none w-50 m-auto ' style={{backgroundColor:"rgb(59,59,59)"}} name="" id="">
+            <option value="Albanian"><img className='w-25' src={alb} alt=""/> Albanian</option>
             <option value="English">English</option>
             <option value="Italiano">Italiano</option>
             <option value="German">German</option>
@@ -34,7 +33,6 @@ const Login = () => {
             <option value="Brazilian">Brazilian</option>
             <option value="Serbian">Serbian</option>
           </select>
-          </div>
         </div>
       </div>
     </div>
