@@ -1,0 +1,45 @@
+import React from 'react'
+import logo from '../images/headerlogo.png'
+import alb from '../images/albanian.png'
+
+const Login = () => {
+  return (
+    <>
+    <div className="container-fluid navbar-brand p-2" style={{backgroundColor:"rgb(34,34,34)"}}>
+      <div className="row">
+        <img className='mx-auto  image' src={logo} alt="" />
+      </div>
+    </div>
+    <div className="container-fluid height" style={{backgroundColor:"rgb(0,0,0)"}}>
+      <div className="container width ">
+        <div className="row">
+          <input className='form-control mb-4 shadow-none text-white border-0' style={{backgroundColor:"rgb(59,59,59)"}} type="text" placeholder='Username'/>
+          <input className='form-control mb-4 shadow-none text-white border-0' style={{backgroundColor:"rgb(59,59,59)"}} type="password" placeholder='Password' />
+          <button className='btn text-white mb-4' style={{backgroundColor:"rgb(59,59,59)"}}>Login</button>
+         <div className="d-flex mb-4 text-white">
+         <input type="checkbox" />
+          <label htmlFor="" className='ms-2'>Accept condition</label>
+         </div>
+          <div className='wrapper'>
+          <select className='form-select mb-4 text-white shadow-none w- m-auto' style={{backgroundColor:"rgb(59,59,59)"}} name="" id="">
+            <option value="Albanian"><img className='w-' src={alb} alt=""/> Albanian</option>
+            <option value="English">English</option>
+            <option value="Italiano">Italiano</option>
+            <option value="German">German</option>
+            <option value="French">French</option>
+            <option value="Greek">Greek</option>
+            <option value="Spanish">Spanish</option>
+            <option value="Portuguese">Portuguese</option>
+            <option value="Turkish">Turkish</option>
+            <option value="Brazilian">Brazilian</option>
+            <option value="Serbian">Serbian</option>
+          </select>
+          </div>
+        </div>
+      </div>
+    </div>
+    </>
+  )
+}
+
+export default Login
