@@ -1,6 +1,6 @@
 import React from 'react'
 import logo from '../images/headerlogo.png'
-import alb from '../images/albanian.png'
+// import alb from '../images/albanian.png'
 
 const Login = () => {
   return (
@@ -18,10 +18,10 @@ const Login = () => {
           <button className='btn text-white mb-4' style={{backgroundColor:"rgb(59,59,59)"}}>Login</button>
          <div className="d-flex mb-4 text-white">
          <input type="checkbox" />
-          <label htmlFor="" className='ms-2'>Accept condition</label>
+          <label htmlFor="" className='ms-2'>Remember Me</label>
          </div>
           <select className='form-select mb-4 text-white shadow-none w-50 m-auto ' style={{backgroundColor:"rgb(59,59,59)"}} name="" id="">
-            <option value="Albanian"><img className='w-25' src={alb} alt=""/> Albanian</option>
+            <option value="Albanian"> Albanian</option>
             <option value="English">English</option>
             <option value="Italiano">Italiano</option>
             <option value="German">German</option>
