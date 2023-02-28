@@ -1,0 +1,38 @@
+.shad{
+    text-shadow: 1px 1px 2px black, 0 0 1em cyan, 0 0 0.3em cyan;
+    color: white;
+    font: 2em Georgia, serif;
+    margin-left: -10vh;
+    text-align: center;
+  }
+  .bord{
+    border: dotted white;
+    border-width: 7px 4px;
+    height: 5vh;
+    width: 35vh;
+    color:rgb(0,196,255);
+    border-radius: 20px 20px;
+  }
+  .hove{
+    background-image: url('../../images/casino1.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 30vh;
+    height: 20vh;
+    position: relative;
+  }
+  .hove:hover {
+    background-image: url('../../images/casino1.png');
+    cursor: pointer;
+    -webkit-transition: background-image 2s ease-out;
+    -moz-transition: background-image 2s ease-out;
+    -o-transition: background-image 2s ease-out;
+    transition: background-image 2s ease-out;
+  }
+ 
+  .butt{
+    position: absolute;
+    margin-top: 5vh;
+    margin-left: 13vh;
+    
+  }
