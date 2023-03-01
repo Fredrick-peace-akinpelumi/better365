@@ -19,11 +19,12 @@ const Navbar = () => {
       </div>
       <div>
         <div>
-          <Link>SPORT</Link>
-          <Link>LIVE BETTING</Link>
-          <Link to='/casino'>CASINO</Link>
-          <Link>TOP POCKER</Link>
-          <Link>VISUAL</Link>
+          <Link to="/sport">SPORT</Link>
+          <Link to="/liveBetting">LIVE BETTING</Link>
+          <Link to="/casino">CASINO</Link>
+          <Link to="/topPoker">TOP POKER</Link>
+          <Link to="/virtual">VIRTUAL</Link>
+
         </div>
         <div>
           <SelectCountry />

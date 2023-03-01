@@ -1,0 +1,8 @@
+.SportRightContent{
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    border: 1px solid white;
+    height: 20vh;
+
+}

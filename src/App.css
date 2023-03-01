@@ -13,3 +13,6 @@
 .height{
   height: 93vh !important;
 }
+button{
+  border: none;
+}

@@ -1,0 +1,27 @@
+.SubNavbar{
+    width: 97%;
+    margin: 0 auto;
+    display: flex;
+    justify-content:space-between;
+    border: 1px solid  #4b4b4b;
+    padding: 1rem;
+    background: #3A3A3A linear-gradient(#414141,#333) no-repeat;
+}
+.SubNavbar>div:nth-of-type(1){
+    display: flex;
+    justify-content: flex-start;
+    gap: 1rem;
+}
+.SubNavbar>div:nth-of-type(1)>a{
+    text-decoration: none;
+    color: white;
+    font-weight: 300;
+}
+.SubNavbar>div:nth-of-type(2){
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    color: white;
+    width: 20%;
+
+}
