@@ -1,0 +1,32 @@
+.LeftSidebar{
+    display: flex;
+    flex-direction: column;
+    width: 15%;
+}
+.LeftSidebar>form:nth-of-type(1){
+    display: flex;
+    justify-content: space-between;
+    background-color: #4b4b4b;
+    padding: .15rem .15rem;
+    height: 2rem;
+    border-radius: 2px;
+}
+.LeftSidebar>form:nth-of-type(1)>input{
+    background-color: #4b4b4b;
+    border: none;
+    color: white;
+    width: 80%;
+}
+.LeftSidebar>form:nth-of-type(1)>input:focus{
+    outline: none;
+    border: none;
+}
+.LeftSidebar>form:nth-of-type(1)>button{
+    border: none;
+    background: #3A3A3A linear-gradient(#414141,#333) no-repeat;
+    border-radius: 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 20%;
+}
