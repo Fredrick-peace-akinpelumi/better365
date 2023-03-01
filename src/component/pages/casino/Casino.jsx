@@ -5,11 +5,26 @@ import casi from "../../images/casi.png";
 import casi2 from "../../images/casi2.png";
 import casi3 from "../../images/casi3.png";
 import casilogo from "../../images/casinologo.PNG";
+import Navbar from "../../static/Navbar/Navbar";
+import hoverimg from "../../images/casino1.png";
+import hoverimg2 from "../../images/casi2.webp";
+import hoverimg3 from "../../images/casi3.webp";
+import hoverimg4 from "../../images/casi4.webp";
+import hoverimg5 from "../../images/casi5.webp";
+import hoverimg6 from "../../images/casi6.webp";
+import hoverimg7 from "../../images/casi7.webp";
+import hoverimg8 from "../../images/casi8.webp";
+import hoverimg9 from "../../images/casi9.webp";
+import hoverimg10 from "../../images/casi10.webp";
+import hoverimg11 from "../../images/casi11.webp";
+import hoverimg12 from "../../images/casi12.webp";
+import Footer from "../../static/footer/Footer";
 
 const Casino = () => {
   const [show, setshow] = useState(false);
   return (
     <>
+    <Navbar/>
       <div
         className="container-fluid"
         style={{ backgroundColor: "rgb(0,0,0)" }}
@@ -25,7 +40,7 @@ const Casino = () => {
         </div>
         <div className="container mt-2">
           <div className="row">
-            <div className="d-flex justify-content-center">
+            <div className="d-lg-flex justify-content-center">
               <div>
                 <h1 className="text-center text-white shad">
                   MEGA <br /> JACKPOT
@@ -108,21 +123,21 @@ const Casino = () => {
           </div>
         </div>
 
-        <div className="container mt-3">
+        <div className="container mt-3 col-lg-12 col-sm-12 col-md-6">
           <div className="row">
             <div
-              className="d-flex justify-content-between p-2"
+              className="d-flex justify-content-between p-lg-2"
               style={{ backgroundColor: "rgb(58,58,58)" }}
             >
-              <div className="text-light d-flex gap-3">
+              <div className="text-light d-lg-flex d-sm-block gap-3">
                 <b>FAVOURITES(0)</b>
                 <b>FEATURED(51)</b>
                 <b>ALL SLOTS(445)</b>
               </div>
-              <div className="text-light d-flex gap-3">
-                <p>icon</p>
-                <p>icon</p>
-                <p>icon</p>
+              <div className="text-light d-lg-flex gap-3">
+                <p><i class="fa-sharp fa-regular fa-filter"></i></p>
+                <p><i class="fa-solid fa-magnifying-glass"></i></p>
+                <p><i class="fa-solid fa-gear"></i></p>
               </div>
             </div>
           </div>
@@ -142,18 +157,22 @@ const Casino = () => {
             </div>
           </div>
 
-          
+{/* games cat map */}
+                  <div className="d-flex flex-wrap">
+                  {
+                    [hoverimg,hoverimg2,hoverimg3,hoverimg4,hoverimg5,hoverimg6,hoverimg7,hoverimg8,hoverimg9,hoverimg10,hoverimg11,hoverimg12].map((item,index)=>(
+
           <div className="col-3 mt-3">
             <div
-              className="hove"
-              onMouseOver={() => setshow(true)}
-              onMouseOut={() => setshow(false)}
+              className="">
+              <img onMouseOver={() => setshow(true)} 
+              onMouseOut={() => setshow(false)} 
+              className="hove" src={item} alt="" 
               style={
                 show
-                  ? {  opacity: "0.5" }
+                  ? {  opacity: "0.5", transition: " 0.5s ease-out" }
                   : {  opacity: "1" }
-              }
-            >
+              }/>
 
              <div className="butt" style={
                   show
@@ -174,8 +193,13 @@ const Casino = () => {
               <p className="text-white ms-5">Sizzling Hot</p>
             </div>
           </div>
+                    ))
+                  }
+                  </div>
+          
         </div>
       </div>
+      <Footer/>
     </>
   );
 };

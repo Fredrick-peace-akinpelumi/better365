@@ -24,6 +24,7 @@ const Navbar = () => {
           <Link to="/casino">CASINO</Link>
           <Link to="/topPoker">TOP POKER</Link>
           <Link to="/virtual">VIRTUAL</Link>
+
         </div>
         <div>
           <SelectCountry />
