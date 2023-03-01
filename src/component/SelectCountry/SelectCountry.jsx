@@ -2,7 +2,7 @@ import alb from "../images/albanian.png"
 
 const SelectCountry=()=>{
     return(
-        <select className='form-select mb-4 text-white shadow-none w-50 m-auto ' style={{backgroundColor:"rgb(59,59,59)"}} name="" id="">
+        <select className='form-select mb-4 text-white shadow-none m-auto ' style={{backgroundColor:"rgb(59,59,59)"}} name="" id="">
             <option value="Albanian"><img className='w-50' src={alb} alt="albanian Flag"/> Albanian</option>
             <option value="English">English</option>
             <option value="Italiano">Italiano</option>

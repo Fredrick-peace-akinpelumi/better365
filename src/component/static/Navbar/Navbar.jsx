@@ -21,7 +21,7 @@ const Navbar = () => {
         <div>
           <Link>SPORT</Link>
           <Link>LIVE BETTING</Link>
-          <Link>CASINO</Link>
+          <Link to='/casino'>CASINO</Link>
           <Link>TOP POCKER</Link>
           <Link>VISUAL</Link>
         </div>

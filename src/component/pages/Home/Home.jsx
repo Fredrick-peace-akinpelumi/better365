@@ -9,6 +9,7 @@ import maradonaDribbling from "../../images/maradona dribbling.png"
 import playerJubilating from "../../images/player jubilating.png"
 import casinoImage from "../../images/football-tackle.png"
 import virtualImage from "../../images/vitual-image.png"
+import Footer from "../../static/footer/Footer";
 
 const Home=()=>{
     return(
@@ -89,6 +90,7 @@ const Home=()=>{
             <hr className="line" />
             
 
+            <Footer/>
         </div>
     )
 }

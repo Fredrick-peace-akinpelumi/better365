@@ -1,8 +1,13 @@
 import React from 'react'
+import {useNavigate } from 'react-router-dom'
 import logo from '../images/headerlogo.png'
 // import alb from '../images/albanian.png'
 
 const Login = () => {
+ const  navigate =useNavigate()
+  const login=()=>{
+    navigate('/home')
+  }
   return (
     <>
     <div className="container-fluid navbar-brand p-2" style={{backgroundColor:"rgb(34,34,34)"}}>
@@ -15,7 +20,7 @@ const Login = () => {
         <div className="row">
           <input className='form-control mb-4 shadow-none text-white border-0' style={{backgroundColor:"rgb(59,59,59)"}} type="text" placeholder='Username'/>
           <input className='form-control mb-4 shadow-none text-white border-0' style={{backgroundColor:"rgb(59,59,59)"}} type="password" placeholder='Password' />
-          <button className='btn text-white mb-4' style={{backgroundColor:"rgb(59,59,59)"}}>Login</button>
+          <button className='btn text-white mb-4' style={{backgroundColor:"rgb(59,59,59)"}} onClick={()=>login()}>Login</button>
          <div className="d-flex mb-4 text-white">
          <input type="checkbox" />
           <label htmlFor="" className='ms-2'>Remember Me</label>

@@ -1,0 +1,8 @@
+.lin:hover{
+    text-decoration: underline;
+}
+.respo:hover{
+    transition:all 5s ease-in-out;
+    background-color: red;
+    
+}
