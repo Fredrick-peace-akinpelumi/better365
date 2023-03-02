@@ -22,6 +22,8 @@ import Footer from "../../static/footer/Footer";
 
 const Casino = () => {
   const [show, setshow] = useState(false);
+
+  const items=[hoverimg,hoverimg2,hoverimg3,hoverimg4,hoverimg5,hoverimg6,hoverimg7,hoverimg8,hoverimg9,hoverimg10,hoverimg11,hoverimg12]
   return (
     <>
     <Navbar/>
@@ -160,7 +162,7 @@ const Casino = () => {
 {/* games cat map */}
                   <div className="d-flex flex-wrap">
                   {
-                    [hoverimg,hoverimg2,hoverimg3,hoverimg4,hoverimg5,hoverimg6,hoverimg7,hoverimg8,hoverimg9,hoverimg10,hoverimg11,hoverimg12].map((item,index)=>(
+                    items.map((item,index)=>(
 
           <div className="col-3 mt-3">
             <div
