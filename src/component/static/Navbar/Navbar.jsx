@@ -8,9 +8,9 @@ import SelectCountry from '../../SelectCountry/SelectCountry';
 
 const Navbar = () => {
   return (
-    <div className='Navbar'>
+    <div className='Navbar border-bottom'>
       <div>
-        <Link><img src={headerLogo}  alt="logo" /></Link>
+        <Link to="/home"><img src={headerLogo}   alt="logo" /></Link>
         <div>
           <Link><img src={fastMoneyLogo} alt='moving money' /></Link>
           <Link><img src={profile} alt='User' /></Link>
@@ -22,7 +22,7 @@ const Navbar = () => {
           <Link to="/sport">SPORT</Link>
           <Link to="/liveBetting">LIVE BETTING</Link>
           <Link to="/casino">CASINO</Link>
-          <Link to="/topPoker">TOP POKER</Link>
+          <Link to="/poker">TOP POKER</Link>
           <Link to="/virtual">VIRTUAL</Link>
 
         </div>

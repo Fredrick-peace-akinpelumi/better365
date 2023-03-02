@@ -5,8 +5,9 @@ import Home from './component/pages/Home/Home';
 import Casino from './component/pages/casino/Casino';
 import Sport from './component/pages/Sport/Sport';
 import LiveBetting from './component/pages/LiveBetting/LiveBetting';
+import TopPoker from './component/pages/top pocker/TopPoker';
 function App() {
-  const isLoggedIn=true
+  // const isLoggedIn=true
   return (
     <div className='App'>
     <Routes>
@@ -17,8 +18,8 @@ function App() {
       <Route path='/casino' element={<Casino/>}/>
       <Route path='/sport' element={<Sport />} />
       <Route path='/liveBetting' element={<LiveBetting />} />
+      <Route path='/poker' element={<TopPoker/>} />
       <Route path='/virtual' element={<h1>Virtual</h1>} />
-      <Route path='/topPoker' element={<h1>Top Poker</h1>} />
       
     </Routes>
     </div>
