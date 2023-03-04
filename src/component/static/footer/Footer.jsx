@@ -5,7 +5,7 @@ import './footer.css'
 const Footer = () => {
   return (
     <>
-    <div className="container-fluid border-top" style={{backgroundColor:"rgb(0,0,0)"}}>
+    <div className="container-fluid border-top " style={{backgroundColor:"rgb(0,0,0)"}}>
             <div className="container p-4 col-6" >
                 <ul className='d-flex gap-3 text-white list-unstyled justify-content-center'>
                     <Link className='text-white nav-link lin'>Help</Link>
