@@ -10,7 +10,7 @@ const Login = () => {
   const login=()=>{
     if (username==="" || password==="") {
       alert('Please fill all the fields')
-    }else if(username!=="skazar" && password!==12345){
+    }else if(username!=="onehost" && password!==12345){
       alert("Unauthorized User")
     }else{
       navigate('/home')

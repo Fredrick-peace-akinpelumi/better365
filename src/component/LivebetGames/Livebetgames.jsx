@@ -71,6 +71,7 @@ const Livebetgames = () => {
                         <p className='text-success'>1.22</p>
                     </div>
                     </div>
+                    
                     <div>
                         <div className='mt-3 box lh-1'>
                             <span className='ms-2'>+</span><br />
