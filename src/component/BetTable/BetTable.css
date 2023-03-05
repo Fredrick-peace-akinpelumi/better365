@@ -1,0 +1,173 @@
+.LiveBetTable{
+    display: flex;
+    flex-direction: column;
+}
+.LiveBetTable>div:nth-of-type(1){
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 2rem;
+    color: white;
+    background:#3A3A3A linear-gradient(#414141,#333) no-repeat ;
+    padding: 5px;
+    border-radius: 4px 4px 0 0;
+    font-weight: 700;
+}
+.LiveBetTable>div:nth-of-type(1)>div:nth-of-type(1)>span>span{
+    color: rgb(132, 3, 3);
+}
+.LiveBetTable>div:nth-of-type(1)>div:nth-of-type(2){
+    display: flex;
+    align-items: center;
+    gap: .5rem;
+}
+.LiveBetTable>div:nth-of-type(1)>div:nth-of-type(2)>select{
+    background: #5F5F5F linear-gradient(rgba(255,255,255,0.118),rgba(0,0,0,0.118)) no-repeat;
+    height: 1.6rem;
+    outline: none;
+    color: #afafaf;
+    border-bottom:1px solid #2f2f2f;
+    border-top:1px solid #353535;
+    border-left: 1px solid #353535;
+    border-right: 1px solid #353535;
+    border-radius:4px ;
+}
+.LiveBetTable>div:nth-of-type(1)>div:nth-of-type(2)>div{
+    display: flex;
+    border: 1px solid  #353535;
+    background: #5F5F5F linear-gradient(rgba(255,255,255,0.118),rgba(0,0,0,0.118)) no-repeat;
+    border-radius: 20px;
+    width: 100px;
+}
+.LiveBetTable>div:nth-of-type(1)>div:nth-of-type(2)>div>span:nth-of-type(1),
+.LiveBetTable>div:nth-of-type(1)>div:nth-of-type(2)>div>span:nth-of-type(3){
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 20%;
+
+}
+.LiveBetTable>div:nth-of-type(1)>div:nth-of-type(2)>div>span:nth-of-type(2){
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+    border: 1px solid  #353535;
+}
+.LiveBetTable>div:nth-of-type(2){
+    display: flex;
+    flex-direction: column;
+}
+.LiveBetTable>div:nth-of-type(2)>div:nth-of-type(1){
+    display: flex;
+    align-items: center;
+    background: #1A1A1A linear-gradient(#212121,#1A1A1A) no-repeat;
+    height: 2rem;
+}
+.LiveBetTable>div:nth-of-type(2)>div:nth-of-type(1)>button{
+    display: flex;
+    align-items: center;
+    background-color: transparent;
+    color: white;
+    border: 1px solid black;
+    padding: 5px;
+    border-radius: 4px 4px 0 0;
+}
+.LiveBetTable>div:nth-of-type(2)>div:nth-of-type(1)>button>img{
+    padding-right: 5px;
+}
+.LiveBetTable>div:nth-of-type(2)>div:nth-of-type(2){
+    display: flex;
+    flex-direction: column;
+    gap: .2rem;
+    background-color: #282828;
+}
+/*  */
+.FootballBetTable{
+    display: flex;
+    gap: .2rem;
+    height: 1.5rem;
+    /* background-color: #686868; */
+    background-color: #282828;
+    border: 0 0 4px 4px;
+}
+.FootballBetTable>div:nth-of-type(1){
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 14%;
+    padding: 5px;
+    
+}
+.FootballBetTable>div:nth-of-type(1)>i:nth-of-type(1){
+    color:#a4a4a4 ;
+}
+.FootballBetTable>div:nth-of-type(1)>div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    line-height: .8rem;
+    
+    height: 2rem;
+    color: #a4a4a4;
+    font-size: .6rem;
+    font-weight: 700;
+}
+.FootballBetTable>div:nth-of-type(1)>i:nth-of-type(2){
+    color: rgb(132, 3, 3);
+}
+.bet-table-match{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #5F5F5F linear-gradient(rgba(255,255,255,0.118),rgba(0,0,0,0.118)) no-repeat;
+    width: 31.5%;
+    padding: 5px;
+}
+.bet-table-match>span:nth-of-type(1){
+    color:white ;
+    font-weight: 700;
+    font-size: .8rem;
+}
+.bet-table-match>span:nth-of-type(2){
+    color:#A2CB27;
+
+}
+/*  */
+.bet-table-odd{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #5F5F5F linear-gradient(rgba(255,255,255,0.118),rgba(0,0,0,0.118)) no-repeat;
+    width: 14%;
+    padding: 5px;
+}
+.bet-table-odd>span:nth-of-type(1){
+    color:white;
+    font-size: .8rem;
+    font-weight: 700;
+}
+.bet-table-odd>span:nth-of-type(2){
+    color:#A2CB27;
+    font-weight: 700;
+    
+}
+/*  */
+.FootballBetTable>span:nth-of-type(1){
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 5%;
+    color: white;
+    background: #5F5F5F linear-gradient(rgba(255,255,255,0.118),rgba(0,0,0,0.118)) no-repeat;
+
+}
+.FootballBetTable>span:nth-of-type(2){
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 4%;
+    background: #5F5F5F linear-gradient(rgba(255,255,255,0.118),rgba(0,0,0,0.118)) no-repeat;
+
+}

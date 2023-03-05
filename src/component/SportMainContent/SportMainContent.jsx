@@ -7,7 +7,7 @@ import SelectTimezone from "../SelectTimezone/SelectTimezone";
 import clock from "../images/clock.png";
 import hgl1 from "../images/hgl1.jpg"
 import hgl2 from "../images/hgl2.jpg"
-import { LiveBetTable } from "../BetTable/BetTable";
+import { LiveBetTable, UpcomingBetTable } from "../BetTable/BetTable";
 
 const SportMainContent=()=>{
     const time=new Date()
@@ -54,6 +54,7 @@ const SportMainContent=()=>{
                 <Link><img src={imageIndex}  alt="carousel" height="190"/></Link>
             </div>
             <LiveBetTable />
+            <UpcomingBetTable />
             
 
         </div>
