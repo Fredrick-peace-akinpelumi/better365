@@ -11,7 +11,7 @@ const SubNavbar=()=>{
                 <Link>Sport</Link>
                 <Link>Livescore</Link>
                 <Link>Statistics</Link>
-                <Link>Bilatat</Link>
+                <Link>Bet List</Link>
                 <Link>JackPot</Link>
             </div>
             <div>
