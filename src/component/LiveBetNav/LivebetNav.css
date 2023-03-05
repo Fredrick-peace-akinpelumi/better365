@@ -1,0 +1,77 @@
+.LivebetNav{
+    display: flex;
+    flex-direction: column;
+    gap:.5rem;
+    width: 80%;
+}
+.LivebetNav>div:nth-of-type(1){
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background:#3A3A3A linear-gradient(#414141,#333) no-repeat ;
+    height: 2rem;
+    border-radius: 4px;
+    padding: 0 10px;
+}
+.mute{
+    background:#3A3A3A linear-gradient(#414141,#333) no-repeat ;
+    color: white;
+    cursor: pointer;
+
+}
+.LivebetNav>div:nth-of-type(1)>div:nth-of-type(1){
+    display: flex;
+    gap: 1rem;
+
+}
+.LivebetNav>div:nth-of-type(1)>div:nth-of-type(1)>button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background:#3A3A3A linear-gradient(#414141,#333) no-repeat ;
+    border-bottom: solid #1d1d1d 1px;
+    border-radius: 4px;
+    border-top: solid #6f6f6f 1px;
+    
+
+}
+.LivebetNav>div:nth-of-type(1)>div:nth-of-type(1)>button>img{
+    height: 100%;
+}
+.LivebetNav>div:nth-of-type(1)>div:nth-of-type(2){
+    color: white;
+
+}
+.LivebetNav>div:nth-of-type(1)>div:nth-of-type(2)>span{
+    font-size: .8rem;
+    font-weight: 700;
+    
+}
+.LivebetNav>div:nth-of-type(1)>div:nth-of-type(2)>span>img{
+    height: 20px;
+
+}
+
+/* Over view nav */
+.overview{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:#3A3A3A ;
+    height: 2rem;
+    border-radius: 4px;
+    padding: 0 10px;
+}
+.overbtn{
+    background:#3A3A3A linear-gradient(#414141,#333) no-repeat ;
+    color: white !important;
+    box-shadow: 0 3px 0 0 greenyellow;
+    height: 3vh;
+    border: thin solid white !important;
+    border-radius: 10px 10px 0 0 !important;
+}
+
+.ball{
+    width: 4%;
+    height: 4%;
+}

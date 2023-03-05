@@ -1,0 +1,24 @@
+.bgg{
+    background-color:rgb(40,40,40) !important;
+    width: 80% !important;
+    height: 7rem;
+    border-radius: 4px;
+    padding:px;
+    color: white;
+    line-height: 0.5;
+}
+.odd{
+    /* width: 50%; */
+    background-color: rgb(40,40,40);
+    width: 25vh !important;
+    height: 2rem;
+    border-radius: 4px;
+    padding:10px;
+    cursor: pointer;
+}
+.box{
+    width: 2rem;
+    height: 2rem;
+    /* padding: 10px; */
+    background-color: #676767 !important;
+}
