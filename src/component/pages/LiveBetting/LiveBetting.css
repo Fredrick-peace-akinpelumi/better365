@@ -1,0 +1,16 @@
+.Livebetting{
+    display: flex;
+    /* flex-direction: column; */
+    gap: rem;
+    width: 100%;
+    margin: 0 auto;
+}
+.main{
+    display: flex;
+    gap: .1rem;
+    width: 100%;
+    margin: 0 auto;
+}
+.whala{
+    width: 100%;
+}

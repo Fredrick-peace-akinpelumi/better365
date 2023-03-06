@@ -7,7 +7,7 @@ const Livebetgames = () => {
   {
     [1,2,3,4,5].map((item,i)=>(
         <>
-        <div className='d-flex justify-content-between text-white col-8 ms-5 mt-3'>
+        <div className='d-flex justify-content-between text-white col-11 ms-5 mt-3'>
         <div>
             <p>Turkey Turkcell League (6)</p>
         </div>
@@ -22,7 +22,7 @@ const Livebetgames = () => {
             <div className="row">
                 <div className=" bgg d-flex justify-content-between">
                  <div className="d-flex mt-4">
-                 <p className='mt-3 ms-5 text-secondary'>62:36</p>
+                 <p className='mt-3 ms-5 ' style={{color:"#B3B3B3"}}>62:36</p>
               <div className='ms-3'>
               <p className='mt-2'>Faith Karagumruk</p>
                 <p>Sivasspor</p>
@@ -33,42 +33,42 @@ const Livebetgames = () => {
                     <p>2</p>
                     <p>1</p>
                     </div>
-                  <div className="mt-1">
-                  <div className='border odd d-flex justify-content-between'>
+                  <div className="mt-1 gap">
+                  <div className='  bor odd d-flex justify-content-between'>
                         <p>Faith Karagumrak </p>
-                        <p className='text-success'>1.22</p>
+                        <b className='text-success'>1.22</b>
                     </div>
-                    <div className='border odd d-flex justify-content-between'>
+                    <div className='  bor odd d-flex justify-content-between'>
                         <p>Faith Karagumrak </p>
-                        <p className='text-success'>1.22</p>
+                        <b className='text-success'>1.22</b>
                     </div>
-                    <div className='border odd d-flex justify-content-between'>
+                    <div className='  bor odd d-flex justify-content-between'>
                         <p>Faith Karagumrak </p>
-                        <p className='text-success'>1.22</p>
+                        <b className='text-success'>1.22</b>
                     </div>
                   </div>
                   <div className="mt-1">
-                  <div className='border odd d-flex justify-content-between'>
+                  <div className='  bor odd d-flex justify-content-between'>
                         <p>Faith Karagumrak </p>
-                        <p className='text-success'>1.22</p>
+                        <b className='text-success'>1.22</b>
                     </div>
-                    <div className='border odd d-flex justify-content-between'>
+                    <div className='  bor odd d-flex justify-content-between'>
                         <p>Faith Karagumrak </p>
-                        <p className='text-success'>1.22</p>
+                        <b className='text-success'>1.22</b>
                     </div>
-                    <div className='border odd d-flex justify-content-between'>
+                    <div className='  bor odd d-flex justify-content-between'>
                         <p>Faith Karagumrak </p>
-                        <p className='text-success'>1.22</p>
+                        <b className='text-success'>1.22</b>
                     </div>
                   </div>
                   <div className="mt-3">
-                  <div className='border odd d-flex justify-content-between'>
+                  <div className='  bor odd d-flex justify-content-between'>
                         <p>Faith Karagumrak </p>
-                        <p className='text-success'>1.22</p>
+                        <b className='text-success'>1.22</b>
                     </div>
-                    <div className='border odd d-flex justify-content-between'>
+                    <div className='  bor odd d-flex justify-content-between'>
                         <p>Faith Karagumrak </p>
-                        <p className='text-success'>1.22</p>
+                        <b className='text-success'>1.22</b>
                     </div>
                     </div>
                     
@@ -77,7 +77,9 @@ const Livebetgames = () => {
                             <span className='ms-2'>+</span><br />
                             <span className='ms-2'>24</span>
                         </div>
-                        <div className="box mt-2"></div>
+                        <div className="box mt-2">
+                        <i class="fa-solid fa-chart-simple ms-2 mt-2"></i>
+                        </div>
                   </div>
                 </div>
                 </div>
