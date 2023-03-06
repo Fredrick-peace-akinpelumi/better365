@@ -1,12 +1,21 @@
-import React from 'react'
+import {React, useState} from 'react'
 import {useNavigate } from 'react-router-dom'
 import logo from '../images/headerlogo.png'
 // import alb from '../images/albanian.png'
 
 const Login = () => {
+  const [username, setusername] = useState("")
+  const [password, setpassword] = useState("")
  const  navigate =useNavigate()
   const login=()=>{
-    navigate('/home')
+    if (username==="" || password==="") {
+      alert('Please fill all the fields')
+    }else if(username!=="onehost" && password!==12345){
+      alert("Unauthorized User")
+    }else{
+      navigate('/home')
+
+    }
   }
   return (
     <>
@@ -18,8 +27,8 @@ const Login = () => {
     <div className="container-fluid height" style={{backgroundColor:"rgb(0,0,0)"}}>
       <div className="container width ">
         <div className="row">
-          <input className='form-control mb-4 shadow-none text-white border-0' style={{backgroundColor:"rgb(59,59,59)"}} type="text" placeholder='Username'/>
-          <input className='form-control mb-4 shadow-none text-white border-0' style={{backgroundColor:"rgb(59,59,59)"}} type="password" placeholder='Password' />
+          <input className='form-control mb-4 shadow-none text-white border-0' onChange={(e)=>setusername(e.target.value)} value={username} style={{backgroundColor:"rgb(59,59,59)"}} type="text" placeholder='Username'/>
+          <input className='form-control mb-4 shadow-none text-white border-0' onChange={(e)=>setpassword(e.target.value)} value={password}  style={{backgroundColor:"rgb(59,59,59)"}} type="password" placeholder='Password' />
           <button className='btn text-white mb-4' style={{backgroundColor:"rgb(59,59,59)"}} onClick={()=>login()}>Login</button>
          <div className="d-flex mb-4 text-white">
          <input type="checkbox" />

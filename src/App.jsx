@@ -7,6 +7,7 @@ import Sport from './component/pages/Sport/Sport';
 import LiveBetting from './component/pages/LiveBetting/LiveBetting';
 import TopPoker from './component/pages/top pocker/TopPoker';
 import Virtual from './component/pages/Virtual/Virtual';
+
 function App() {
   // const isLoggedIn=true
   return (
@@ -21,7 +22,6 @@ function App() {
       <Route path='/liveBetting' element={<LiveBetting />} />
       <Route path='/poker' element={<TopPoker/>} />
       <Route path='/virtual' element={<Virtual />} />
-      
     </Routes>
     </div>
   );
