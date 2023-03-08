@@ -1,0 +1,93 @@
+.Dashboard{
+    display: flex;
+    flex-direction: column;
+    width: 97%;
+    margin: 0 auto;
+}
+.Dashboard>div:nth-of-type(2){
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 2rem;
+    padding: 10px 10px 10px 0;
+    color: white;
+}
+.Dashboard>div:nth-of-type(2)>span{
+    font-weight: 700;
+    margin-right: 2rem;
+}
+.Dashboard>div:nth-of-type(2)>div:nth-of-type(1),
+.Dashboard>div:nth-of-type(2)>div:nth-of-type(2){
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.Dashboard>div:nth-of-type(2)>div:nth-of-type(1)>i,
+.Dashboard>div:nth-of-type(2)>div:nth-of-type(2)>i{
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    background: #5F5F5F linear-gradient(rgba(255,255,255,0.118),rgba(0,0,0,0.118)) no-repeat;
+}
+.Dashboard>div:nth-of-type(2)>div:nth-of-type(1)>span,
+.Dashboard>div:nth-of-type(2)>div:nth-of-type(2)>span{
+    font-size: .8rem;
+}
+.Dashboard>div:nth-of-type(3){
+    display: flex;
+}
+.Dashboard>div:nth-of-type(3)>div:nth-of-type(1){
+    width: 30%;
+}
+.Dashboard>div:nth-of-type(3)>div:nth-of-type(2){
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 70%;
+}
+.Dashboard>div:nth-of-type(3)>div:nth-of-type(2)>form{
+    display: flex;
+    flex-direction: column;
+
+}
+.Dashboard>div:nth-of-type(3)>div:nth-of-type(2)>form>input{
+    margin: 10px;
+    color: white;
+    background-color: black;
+    border: 1px solid white;
+    padding: 5px;
+    border-radius: 10px;
+    width: 130%;
+}
+.Dashboard>div:nth-of-type(4){
+    display: flex;
+}
+.Dashboard>div:nth-of-type(4)>div:nth-of-type(1){
+    width: 30%;
+}
+.Dashboard>div:nth-of-type(4)>div:nth-of-type(2){
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid white;
+    width: 70%;
+}
+.Dashboard>div:nth-of-type(4)>div:nth-of-type(2)>form{
+    display: flex;
+    gap: .5rem;
+}
+.Dashboard>div:nth-of-type(4)>div:nth-of-type(2)>form>div{
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    color: white;
+}
+.Dashboard>div:nth-of-type(4)>div:nth-of-type(2)>form>div>input{
+    margin: 10px 0;
+    background-color: black;
+    color: white;
+    border: 1px solid white;
+}
