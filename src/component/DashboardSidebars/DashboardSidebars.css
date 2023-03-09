@@ -1,0 +1,22 @@
+.DashboardSidebars{
+    display: flex;
+    flex-direction: column;
+}
+.DashboardSidebars>span{
+    font-weight: 700;
+    color: white;
+}
+.DashboardSidebars>a>div{
+    background: #5F5F5F linear-gradient(rgba(255,255,255,0.118),rgba(0,0,0,0.118)) no-repeat;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+}
+.DashboardSidebars>a{
+    display: flex;
+    align-items: center;
+    gap: .5rem;
+    color: white;
+    text-decoration: none;
+    padding:5px 10px;
+}

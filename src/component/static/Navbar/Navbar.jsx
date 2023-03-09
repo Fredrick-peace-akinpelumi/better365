@@ -18,7 +18,7 @@ const Navbar = () => {
         <Link to="/home"><img src={headerLogo}   alt="logo" /></Link>
         <div>
           <Link><img src={fastMoneyLogo} alt='moving money' /></Link>
-          <Link><img src={profile} alt='User' /></Link>
+          <Link to="/dashboard"><img src={profile} alt='User' /></Link>
           <button onClick={()=>logout()}>Log Out</button>
         </div>
       </div>
